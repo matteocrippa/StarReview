@@ -159,7 +159,7 @@ public final class StarReview: UIControl {
         }
     }
     
-    override init(frame: CGRect) {
+    override public init(frame: CGRect) {
         super.init(frame: frame)
         self.backgroundColor = UIColor.clear
         self.isUserInteractionEnabled = true
